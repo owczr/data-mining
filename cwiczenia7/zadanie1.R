@@ -35,3 +35,6 @@ rf_accuracy <- sum(rf_pred == test_data$outcome) / nrow(test_data)
 # Wyświetlenie dokładności
 print(tree_accuracy)
 print(rf_accuracy)
+
+# 0.7099567
+# 0.7229437
