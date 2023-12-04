@@ -53,6 +53,5 @@ pred <- round(pred)
 cmatrix <- confusionMatrix(as.factor(pred), as.factor(test$outcome))
 print(cmatrix$overall["Accuracy"])
 
-plot(model)
-# 0.7695652 
+# 0.7695652
 # 0.7652174
